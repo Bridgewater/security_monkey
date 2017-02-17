@@ -74,6 +74,7 @@ part 'component/dashboard_component/dashboard_component.dart';
 part 'component/settings/user_role_component/user_role_component.dart';
 part 'component/settings/network_whitelist_component/network_whitelist_component.dart';
 part 'component/settings/ignore_list_component/ignore_list_component.dart';
+part 'component/justified_table_component/justified_table_component.dart';
 
 class SecurityMonkeyModule extends Module {
 
@@ -111,6 +112,7 @@ class SecurityMonkeyModule extends Module {
     bind(UserRoleComponent);
     bind(NetworkWhitelistComponent);
     bind(IgnoreListComponent);
+    bind(JustifiedTableComponent);
 
     // Services
     bind(JustificationService);
