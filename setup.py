@@ -47,7 +47,7 @@ setup(
         'dpath==1.3.2',
         'pyyaml==3.11',
         'jira==0.32',
-        'cloudaux>=1.0.7',
+        'cloudaux>=1.1.1',
         'joblib>=0.9.4',
         'pyjwt>=1.01',
     ],
@@ -58,7 +58,8 @@ setup(
             'mixer==5.5.7',
             'mock==1.0.1',
             'moto==0.4.30',
-            'freezegun>=0.3.7'
+            'freezegun>=0.3.7',
+            'mixer==5.5.7'
         ]
     }
 )
