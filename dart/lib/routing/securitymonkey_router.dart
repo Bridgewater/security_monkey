@@ -48,7 +48,7 @@ void securityMonkeyRouteInitializer(Router router, RouteViewFactory views) {
               view: 'views/error.html')
         }),
     'justified': ngRoute(
-        path: '/justified/:regions/:technologies/:accounts/:names/:arns/:active/:searchconfig/:page/:count',
+        path: '/justified/:regions/:technologies/:accounts/:accounttypes/:names/:arns/:active/:searchconfig/:page/:count',
         mount: {
           'view': ngRoute(
               path: '',
